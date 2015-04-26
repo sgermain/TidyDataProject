@@ -1,0 +1,14 @@
+Study design section
+How data was colected
+
+Code book
+Describes each variable and its units
+
+Inputs
+Outputs 
+Parameters
+
+Instruction list
+
+Download data from source and stpre it in a directory
+unzip the data using 
