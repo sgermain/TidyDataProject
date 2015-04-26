@@ -60,78 +60,102 @@ tBodyGyroMean
 tBodyGyroJerkMean
 
 ==================================================================
-Description of variables 
+Description of variables (time units = seconds / frequency in Hz)
 ==================================================================
 
 Activity - Type of activity performed by a subject, can have the following values:
 1 WALKING; 2 WALKING_UPSTAIRS; 3 WALKING_DOWNSTAIRS; 4 SITTING; 5 STANDING; 6 LAYING
 
 subject: one of the 30 test subjects assigned to the experiment - values in the range of 1-30
-tbodyacc.mean.x: average body 
-tbodyacc.mean.y
-tbodyacc.mean.z
-tbodyacc.std.x
-tbodyacc.std.y
-tbodyacc.std.z
-tgravityacc.mean.x
-tgravityacc.mean.y
-tgravityacc.mean.z
-tgravityacc.std.x
-tgravityacc.std.y
-tgravityacc.std.z
-tbodyaccjerk.mean.x
-tbodyaccjerk.mean.y
-tbodyaccjerk.mean.z
-tbodyaccjerk.std.x
-tbodyaccjerk.std.y
-tbodyaccjerk.std.z
-tbodygyro.mean.x
-tbodygyro.mean.y
-tbodygyro.mean.z
-tbodygyro.std.x
-tbodygyro.std.y
-tbodygyro.std.z
-tbodygyrojerk.mean.x
-tbodygyrojerk.mean.y
-tbodygyrojerk.mean.z
-tbodygyrojerk.std.x
-tbodygyrojerk.std.y
-tbodygyrojerk.std.z
-tbodyaccmag.mean.
-tbodyaccmag.std.
-tgravityaccmag.mean.
-tgravityaccmag.std.
-tbodyaccjerkmag.mean.
-tbodyaccjerkmag.std.
-tbodygyromag.mean.
-tbodygyromag.std.
-tbodygyrojerkmag.mean.
-tbodygyrojerkmag.std.
-fbodyacc.mean.x
-fbodyacc.mean.y
-fbodyacc.mean.z
-fbodyacc.std.x
-fbodyacc.std.y
-fbodyacc.std.z
-fbodyaccjerk.mean.x
-fbodyaccjerk.mean.y
-fbodyaccjerk.mean.z
-fbodyaccjerk.std.x
-fbodyaccjerk.std.y
-fbodyaccjerk.std.z
-fbodygyro.mean.x
-fbodygyro.mean.y
-fbodygyro.mean.z
-fbodygyro.std.x
-fbodygyro.std.y
-fbodygyro.std.z
-fbodyaccmag.mean.
-fbodyaccmag.std.
-fbodybodyaccjerkmag.mean.
-fbodybodyaccjerkmag.std.
-fbodybodygyromag.mean.
-fbodybodygyromag.std.
-fbodybodygyrojerkmag.mean.
-fbodybodygyrojerkmag.std.
+tbodyacc.mean.x: average body acceleration measured X axis - time
+tbodyacc.mean.y: average body acceleration measured y axis - time
+tbodyacc.mean.z: average body acceleration measured Z axis - time
+tbodyacc.std.x: average standard deviation body acceleration measured x axis - time
+tbodyacc.std.y: average standard deviation body acceleration measured y axis - time
+tbodyacc.std.z: average standard deviation body acceleration measured z axis - time
+tgravityacc.mean.x: average gravity acceleration measured X axis  - time
+tgravityacc.mean.y: average gravity acceleration measured y axis  - time
+tgravityacc.mean.z: average gravity acceleration measured z axis  - time
+tgravityacc.std.x: average standard deviation gravity acceleration measured x axis  - time
+tgravityacc.std.y: average standard deviation gravity acceleration measured y axis  - time
+tgravityacc.std.z: average standard deviation gravity acceleration measured z axis  - time
+tbodyaccjerk.mean.x: average body jerk acceleration measured X axis  - time
+tbodyaccjerk.mean.y: average body jerk acceleration measured y axis  - time
+tbodyaccjerk.mean.z: average body jerk acceleration measured z axis  - time
+tbodyaccjerk.std.x: average standard deviation gravity body jerk acceleration measured x axis  - time
+tbodyaccjerk.std.y: average standard deviation gravity body jerk acceleration measured y axis  - time
+tbodyaccjerk.std.z: average standard deviation gravity body jerk acceleration measured z axis  - time
+tbodygyro.mean.x: average body gyro measured X axis  - time
+tbodygyro.mean.y: average body gyro measured y axis  - time
+tbodygyro.mean.z: average body gyro measured z axis  - time
+tbodygyro.std.x: average standard deviation body gyro measured X axis  - time
+tbodygyro.std.y: average standard deviation body gyro measured y axis  - time
+tbodygyro.std.z: average standard deviation body gyro measured z axis  - time
+tbodygyrojerk.mean.x: average body gyro jerk measured X axis  - time
+tbodygyrojerk.mean.y: average body gyro jerk measured y axis  - time
+tbodygyrojerk.mean.z: average body gyro jerk measured z axis  - time
+tbodygyrojerk.std.x: average standard deviation body gyro jerk measured X axis  - time
+tbodygyrojerk.std.y: average standard deviation body gyro jerk measured X axis  - time
+tbodygyrojerk.std.z: average standard deviation body gyro jerk measured X axis  - time
+tbodyaccmag.mean.: average body acceleration three dimensional  - time
+tbodyaccmag.std.: average standard deviation body acceleration three dimensional  - time
+tgravityaccmag.mean.: average gravity acceleration three dimensional  - time
+tgravityaccmag.std.: average standard deviation gravity acceleration three dimensional  - time
+tbodyaccjerkmag.mean.: average body acceleration jerking movement three dimensional  - time
+tbodyaccjerkmag.std.: average standard deviation body acceleration jerking movement three dimensional  - time
+tbodygyromag.mean.: average body gyro movement  - time
+tbodygyromag.std.: average standard deviation body gyro movement  - time
+tbodygyrojerkmag.mean.: average body gyro jerking movement  - time
+tbodygyrojerkmag.std.: average standard deviation body gyro jerking movement - time
+fbodyacc.mean.x: average body acceleation measured X axis - frequency
+fbodyacc.mean.y: average body acceleation measured y axis - frequency
+fbodyacc.mean.z: average body acceleation measured z axis - frequency
+fbodyacc.std.x: average standard deviation body acceleation measured X axis - frequency
+fbodyacc.std.y: average standard deviation body acceleation measured y axis - frequency
+fbodyacc.std.z: average standard deviation body acceleation measured z axis - frequency
+fbodyaccjerk.mean.x: average body acceleation jerking motion measured X axis - frequency
+fbodyaccjerk.mean.y: average body acceleation jerking motion measured y axis - frequency
+fbodyaccjerk.mean.z: average body acceleation jerking motion measured z axis - frequency
+fbodyaccjerk.std.x: average standard deviation body acceleation jerking motion measured X axis - frequency
+fbodyaccjerk.std.y: average standard deviation body acceleation jerking motion measured y axis - frequency
+fbodyaccjerk.std.z: average standard deviation body acceleation jerking motion measured z axis - frequency
+fbodygyro.mean.x: average body gyro measured X axis - frequency
+fbodygyro.mean.y: average body gyro measured y axis - frequency
+fbodygyro.mean.z: average body gyro measured z axis - frequency
+fbodygyro.std.x: average standard deviation body gyro measured X axis - frequency
+fbodygyro.std.y: average standard deviation body gyro measured y axis - frequency
+fbodygyro.std.z: average standard deviation body gyro measured z axis - frequency
+fbodyaccmag.mean.: average body acceleration aggregated - frequency
+fbodyaccmag.std.: average standard deviation body acceleration aggregated - frequency
+fbodybodyaccjerkmag.mean.: average body body acceleration jerking movement aggregated - frequency
+fbodybodyaccjerkmag.std.: average standard deviation body body acceleration jerking movement aggregated - frequency
+fbodybodygyromag.mean.: average body body gyro movement aggregated - frequency
+fbodybodygyromag.std.: average standard deviation body body gyro aggregated movement aggregated - frequency
+fbodybodygyrojerkmag.mean.: average body body gyro jerking movement aggregated - frequency
+fbodybodygyrojerkmag.std.: average standard deviation body body gyro jerking movement aggregated - frequency
 
+=========================================
+How this script works:
+=========================================
+1) The script sets the working directory to "C:\\Users\\sgermain\\Desktop\\Coursera\\Using data\\Project\\Tidy Data Project" (Home directory)
+
+2) If the \data folder doesn't already exist, the script creates a \data subdirectory to download and extract all the data files used by the script.  The files is downloaded from the website as data.zip file and extracted in the /data directory.
+The dateDownloaded variable captures the date of the last data download.
+
+3) After the file dowload has completed, it will extract the data into the "\UCI HAR Dataset" folder.  It then reads the values of the features.txt file into the vector_features vector.  We are using the values of this vector as the descriptive names of the activities in our merged data set.  
+
+4) The script switches over into the /train folder and reads the data from the X_train.txt and  Y_train.txt files into the training_set, training_labels and training_subject dataframe tables.  We give the training_labels, training_subject and training_set tables meaningful variable names by setting the factor of these tables to "Activity", "Subject" and the features listed in the vector_features vector. We then merge and consolidate the train data tables into the test_data frame.
+
+
+5)  The script switches over into the /test folder and reads the data from the X_test.txt and y_test.txt files into the test_set, test_labels and test_subject dataframe tables.  We give the training_labels, test_subject and training_set tables meaningful variable names by setting the factor of these tables to "Activity", "Subject" and the features listed in the vector_features vector. We then merge and consolidate the test data tables into the test_data frame. 
+
+6) The script merges the data from both the training_data and test_data into a consolidated All_data dataframe table.
+
+7) We clean up the factors (variable names) in the All_datatable by relacing the "()" and "-" characters to "." and converting all uppercase letters to lowercase.
+
+8) We create the All_data_subset data table by filtering and selecting columns from the All_data table that **END** with the "std" and "mean" strings.  If the column name did not end with "std" or "mean" - it was not selected.  We also added the activity and subject columns from the All_data table into the selection.
+
+9) We then grouped the data by activity and subject, claculating the average for each variable.
+
+10) We set the home directory back to the home folder, in this case ""C:\\Users\\sgermain\\Desktop\\Coursera\\Using data\\Project\\Tidy Data Project", and printed out the resulting dataset in the run_analysis.txt file. 
 
