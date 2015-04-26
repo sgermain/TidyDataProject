@@ -67,71 +67,137 @@ Activity - Type of activity performed by a subject, can have the following value
 1 WALKING; 2 WALKING_UPSTAIRS; 3 WALKING_DOWNSTAIRS; 4 SITTING; 5 STANDING; 6 LAYING
 
 subject: one of the 30 test subjects assigned to the experiment - values in the range of 1-30
+
 tbodyacc.mean.x: average body acceleration measured X axis - time
+
 tbodyacc.mean.y: average body acceleration measured y axis - time
+
 tbodyacc.mean.z: average body acceleration measured Z axis - time
+
 tbodyacc.std.x: average standard deviation body acceleration measured x axis - time
+
 tbodyacc.std.y: average standard deviation body acceleration measured y axis - time
+
 tbodyacc.std.z: average standard deviation body acceleration measured z axis - time
+
 tgravityacc.mean.x: average gravity acceleration measured X axis  - time
+
 tgravityacc.mean.y: average gravity acceleration measured y axis  - time
+
 tgravityacc.mean.z: average gravity acceleration measured z axis  - time
+
 tgravityacc.std.x: average standard deviation gravity acceleration measured x axis  - time
+
 tgravityacc.std.y: average standard deviation gravity acceleration measured y axis  - time
+
 tgravityacc.std.z: average standard deviation gravity acceleration measured z axis  - time
+
 tbodyaccjerk.mean.x: average body jerk acceleration measured X axis  - time
+
 tbodyaccjerk.mean.y: average body jerk acceleration measured y axis  - time
+
 tbodyaccjerk.mean.z: average body jerk acceleration measured z axis  - time
+
 tbodyaccjerk.std.x: average standard deviation gravity body jerk acceleration measured x axis  - time
+
 tbodyaccjerk.std.y: average standard deviation gravity body jerk acceleration measured y axis  - time
+
 tbodyaccjerk.std.z: average standard deviation gravity body jerk acceleration measured z axis  - time
+
 tbodygyro.mean.x: average body gyro measured X axis  - time
+
 tbodygyro.mean.y: average body gyro measured y axis  - time
+
 tbodygyro.mean.z: average body gyro measured z axis  - time
+
 tbodygyro.std.x: average standard deviation body gyro measured X axis  - time
+
 tbodygyro.std.y: average standard deviation body gyro measured y axis  - time
+
 tbodygyro.std.z: average standard deviation body gyro measured z axis  - time
+
 tbodygyrojerk.mean.x: average body gyro jerk measured X axis  - time
+
 tbodygyrojerk.mean.y: average body gyro jerk measured y axis  - time
+
 tbodygyrojerk.mean.z: average body gyro jerk measured z axis  - time
+
 tbodygyrojerk.std.x: average standard deviation body gyro jerk measured X axis  - time
+
 tbodygyrojerk.std.y: average standard deviation body gyro jerk measured X axis  - time
+
 tbodygyrojerk.std.z: average standard deviation body gyro jerk measured X axis  - time
+
 tbodyaccmag.mean.: average body acceleration three dimensional  - time
+
 tbodyaccmag.std.: average standard deviation body acceleration three dimensional  - time
+
 tgravityaccmag.mean.: average gravity acceleration three dimensional  - time
+
 tgravityaccmag.std.: average standard deviation gravity acceleration three dimensional  - time
+
 tbodyaccjerkmag.mean.: average body acceleration jerking movement three dimensional  - time
+
 tbodyaccjerkmag.std.: average standard deviation body acceleration jerking movement three dimensional  - time
+
 tbodygyromag.mean.: average body gyro movement  - time
+
 tbodygyromag.std.: average standard deviation body gyro movement  - time
+
 tbodygyrojerkmag.mean.: average body gyro jerking movement  - time
+
 tbodygyrojerkmag.std.: average standard deviation body gyro jerking movement - time
+
 fbodyacc.mean.x: average body acceleation measured X axis - frequency
+
 fbodyacc.mean.y: average body acceleation measured y axis - frequency
+
 fbodyacc.mean.z: average body acceleation measured z axis - frequency
+
 fbodyacc.std.x: average standard deviation body acceleation measured X axis - frequency
+
 fbodyacc.std.y: average standard deviation body acceleation measured y axis - frequency
+
 fbodyacc.std.z: average standard deviation body acceleation measured z axis - frequency
+
 fbodyaccjerk.mean.x: average body acceleation jerking motion measured X axis - frequency
+
 fbodyaccjerk.mean.y: average body acceleation jerking motion measured y axis - frequency
+
 fbodyaccjerk.mean.z: average body acceleation jerking motion measured z axis - frequency
+
 fbodyaccjerk.std.x: average standard deviation body acceleation jerking motion measured X axis - frequency
+
 fbodyaccjerk.std.y: average standard deviation body acceleation jerking motion measured y axis - frequency
+
 fbodyaccjerk.std.z: average standard deviation body acceleation jerking motion measured z axis - frequency
+
 fbodygyro.mean.x: average body gyro measured X axis - frequency
+
 fbodygyro.mean.y: average body gyro measured y axis - frequency
+
 fbodygyro.mean.z: average body gyro measured z axis - frequency
+
 fbodygyro.std.x: average standard deviation body gyro measured X axis - frequency
+
 fbodygyro.std.y: average standard deviation body gyro measured y axis - frequency
+
 fbodygyro.std.z: average standard deviation body gyro measured z axis - frequency
+
 fbodyaccmag.mean.: average body acceleration aggregated - frequency
+
 fbodyaccmag.std.: average standard deviation body acceleration aggregated - frequency
+
 fbodybodyaccjerkmag.mean.: average body body acceleration jerking movement aggregated - frequency
+
 fbodybodyaccjerkmag.std.: average standard deviation body body acceleration jerking movement aggregated - frequency
+
 fbodybodygyromag.mean.: average body body gyro movement aggregated - frequency
+
 fbodybodygyromag.std.: average standard deviation body body gyro aggregated movement aggregated - frequency
+
 fbodybodygyrojerkmag.mean.: average body body gyro jerking movement aggregated - frequency
+
 fbodybodygyrojerkmag.std.: average standard deviation body body gyro jerking movement aggregated - frequency
 
 =========================================
